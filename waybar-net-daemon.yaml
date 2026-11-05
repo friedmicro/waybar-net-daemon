@@ -1,0 +1,10 @@
+urls:
+  - http://api.serpents.friedmicro-lab.org/status
+  - http://uptime.friedmicro-lab.org/status
+  - http://omlx.ai.lucia.friedmicro-lab.org
+  - http://time.lucia.friedmicro-lab.org/api/week_times
+keys:
+  - ha
+  - netstatus
+  - omlxstatus
+  - timekeeper
