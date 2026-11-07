@@ -6,3 +6,6 @@ This largely exists for reducing the overhead of cold starting clients as waybar
 
 ## How this works
 The configuration file `waybar-net-daemon.yaml` is read and each http request configured is made at the configured interval. If the user requests a key from the daemon then the respective state will be returned.
+
+## Build\use
+Build the project with `cargo build --release` and update `waybar-net-daemon.yaml` as appropriate.
